@@ -23,4 +23,6 @@ find . -maxdepth 1 ! -name "CLEAN.sh" ! -name "arhiiv" ! -newermt "$tanane_kuupa
 # (ENG) Removing files that were archived.
 find . -maxdepth 1 ! -name "CLEAN.sh" ! -newermt "$tanane_kuupaev 00:00:00" -exec rm {} +
 
+# (EST) Kinnitan, et arhiveerimine on lõpetatud.
+# (ENG) Confirming that the archiving is complete.
 echo "Arhiveerimine lõpetatud."
